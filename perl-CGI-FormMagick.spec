@@ -6,7 +6,7 @@ Summary:	CGI::FormMagick - easily create CGI form-based applications
 Summary(pl):	CGI::FormMagick - ³atwe tworzenie aplikacji CGI opartych na formularzach
 Name:		perl-CGI-FormMagick
 Version:	0.89
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -56,6 +56,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+# get rid of pod documentation
+rm -f $RPM_BUILD_ROOT%{perl_vendorlib}/CGI/FormMagick/FAQ.pod
 
 %clean
 rm -rf $RPM_BUILD_ROOT
