@@ -1,7 +1,4 @@
 #
-# Conditional build:
-%bcond_without	tests	# do not perform "make test" [disabled anyway]
-#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	CGI
 %define	pnam	FormMagick
@@ -53,9 +50,6 @@ linii kodu w Perlu.
 	INSTALLDIRS=vendor
 
 %{__make}
-
-# no t/*.t in this version
-#%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
