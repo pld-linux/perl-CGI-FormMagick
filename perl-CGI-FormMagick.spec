@@ -1,7 +1,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	FormMagick
+%define		pdir	CGI
+%define		pnam	FormMagick
 Summary:	CGI::FormMagick - easily create CGI form-based applications
 Summary(pl):	CGI::FormMagick - ³atwe tworzenie aplikacji CGI opartych na formularzach
 Name:		perl-CGI-FormMagick
