@@ -22,8 +22,9 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 # R, not BR - versioned deps are not generated, and there are no tests for BR
 Requires:	perl-CGI-Persistent >= 0.21
-Requires:	perl-Class-ParamParser >= 1.0401
+Requires:	perl-Class-ParamParser >= 1.041
 Requires:	perl-I18N-LangTags >= 0.13
+Requires:	perl-Mail-RFC822-Address
 Requires:	perl-Persistence-Object-Simple >= 0.47
 Requires:	perl-Text-Iconv >= 1.2
 Requires:	perl-Text-Template >= 1.40
