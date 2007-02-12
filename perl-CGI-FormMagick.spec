@@ -3,7 +3,7 @@
 %define		pdir	CGI
 %define		pnam	FormMagick
 Summary:	CGI::FormMagick - easily create CGI form-based applications
-Summary(pl):	CGI::FormMagick - ³atwe tworzenie aplikacji CGI opartych na formularzach
+Summary(pl.UTF-8):   CGI::FormMagick - Å‚atwe tworzenie aplikacji CGI opartych na formularzach
 Name:		perl-CGI-FormMagick
 Version:	0.89
 Release:	2
@@ -35,11 +35,11 @@ web applications. It allows the developer to specify the structure of a
 multi-page "wizard" style form using XML, then display that form using
 only a few lines of Perl.
 
-%description -l pl
-FormMagick to zestaw narzêdzi do ³atwego tworzenia w miarê z³o¿onych
-aplikacji WWW opartych na formularzach. Pozwala programi¶cie okre¶liæ
-strukturê wielostronnicowego formularza w stylu "czarodzieja" przy
-u¿yciu XML-a, a nastêpnie wy¶wietliæ go przy u¿yciu zaledwie kilku
+%description -l pl.UTF-8
+FormMagick to zestaw narzÄ™dzi do Å‚atwego tworzenia w miarÄ™ zÅ‚oÅ¼onych
+aplikacji WWW opartych na formularzach. Pozwala programiÅ›cie okreÅ›liÄ‡
+strukturÄ™ wielostronnicowego formularza w stylu "czarodzieja" przy
+uÅ¼yciu XML-a, a nastÄ™pnie wyÅ›wietliÄ‡ go przy uÅ¼yciu zaledwie kilku
 linii kodu w Perlu.
 
 %prep
