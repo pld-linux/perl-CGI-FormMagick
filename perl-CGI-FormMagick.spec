@@ -6,7 +6,7 @@ Summary:	CGI::FormMagick - easily create CGI form-based applications
 Summary(pl.UTF-8):	CGI::FormMagick - łatwe tworzenie aplikacji CGI opartych na formularzach
 Name:		perl-CGI-FormMagick
 Version:	0.89
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
