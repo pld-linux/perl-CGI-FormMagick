@@ -1,7 +1,6 @@
-#
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	CGI
 %define		pnam	FormMagick
+%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::FormMagick - easily create CGI form-based applications
 Summary(pl.UTF-8):	CGI::FormMagick - łatwe tworzenie aplikacji CGI opartych na formularzach
 Name:		perl-CGI-FormMagick
@@ -12,6 +11,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f40a7de9af1e2484d76240896174774e
+URL:		http://search.cpan.org/dist/CGI-FormMagick/
 # no tests
 #BuildRequires:	perl-Test-Inline >= 0.15
 #BuildRequires:	perl-Test-Simple >= 0.42
@@ -31,9 +31,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 FormMagick is a toolkit for easily building fairly complex form-based
-web applications. It allows the developer to specify the structure of a
-multi-page "wizard" style form using XML, then display that form using
-only a few lines of Perl.
+web applications. It allows the developer to specify the structure of
+a multi-page "wizard" style form using XML, then display that form
+using only a few lines of Perl.
 
 %description -l pl.UTF-8
 FormMagick to zestaw narzędzi do łatwego tworzenia w miarę złożonych
